@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyPortfolio | Research</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body class="research-page">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">MyPortfolio</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a data-nav-link href="index.html">About</a>
+          <a data-nav-link href="work-experience.html">Work Experience</a>
+          <a data-nav-link href="research.html">Research</a>
+          <a data-nav-link href="mentoring.html">Mentoring</a>
+          <a data-nav-link href="projects.html">Projects</a>
+          <a data-nav-link href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page">
+      <section class="hero compact reveal">
+        <div>
+          <h1>Research &amp; Publications</h1>
+          <p>Mix of research work, publications, and applied internship projects. Full details are in my resume!</p>
+        </div>
+      </section>
+
+      <section class="card-grid research-list reveal">
+        <article class="card">
+          <div class="timeline-head">
+            <h3>EEG-based detection of secondary brain injury</h3>
+            <span class="timeline-date">May 2021 &ndash; Jun 2022</span>
+          </div>
+          <p class="publication-line">Center for the Neural Basis of Cognition, Carnegie Mellon University</p>
+          <p class="publication-line">Graduate Research Assistant, Deep Learning Researcher</p>
+          <p class="research-overview">
+            At CMU, I worked on EEG-based, non-invasive detection of secondary brain injury in traumatic
+            brain injury and stroke. The project focused on identifying cortical spreading depression from
+            EEG recordings using a mix of graph signal processing ideas and deep learning. I developed and
+            iterated on deep learning models including ResNet34 and Graph Attention Networks, and I scaled
+            experiments through GPU training and high-performance computing to run larger, more reliable
+            evaluations.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="timeline-head">
+            <h3>Financial data modeling for equity premium prediction</h3>
+            <span class="timeline-date">Jan 2022 &ndash; May 2022</span>
+          </div>
+          <p class="publication-line">Carnegie Mellon University</p>
+          <p class="publication-line">Data Science Intern, Financial Data Modeling</p>
+          <p class="research-overview">
+            At CMU, I worked on financial signal engineering and rolling predictive modeling for equity
+            premium prediction. I engineered signals such as dividend yield and term spread, improving
+            data reliability and reducing missingness by 25%. I built and tuned rolling prediction
+            pipelines that improved R² from 0.55 to 0.78 and reduced MSE by 40% through feature
+            selection and hyperparameter tuning. I also used bootstrapping and signal extraction
+            techniques to stabilize forecasts under noisy market conditions.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="timeline-head">
+            <h3>Protein subcellular localization from microscopy images</h3>
+            <span class="timeline-date">Jan 2019 &ndash; Jun 2019</span>
+          </div>
+          <p class="publication-line">Intelligent Systems Center, PES University</p>
+          <p class="publication-line">Machine Learning Researcher</p>
+          <p class="research-overview">
+            This project focused on automating protein subcellular localization from microscopy images to
+            reduce reliance on slow, manual annotation. I framed the task as a multi-class image
+            classification problem and ran a structured comparative study across three model families: a
+            conventional baseline, a ResNet50-based architecture, and an Xception-based architecture. By
+            evaluating these approaches side by side, I quantified the performance gains from modern deep
+            learning architectures and identified the most reliable model for scaling the localization
+            pipeline. The work received the Best Research Project and Innovation award, and I
+            first-authored the resulting paper.
+          </p>
+          <div class="project-actions">
+            <a class="action-link" href="https://ieeexplore.ieee.org/document/9030333" target="_blank" rel="noreferrer">Read Paper</a>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="assets/main.js"></script>
+  </body>
+</html>

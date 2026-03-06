@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyPortfolio | Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body class="projects-page">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">MyPortfolio</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a data-nav-link href="index.html">About</a>
+          <a data-nav-link href="work-experience.html">Work Experience</a>
+          <a data-nav-link href="research.html">Research</a>
+          <a data-nav-link href="mentoring.html">Mentoring</a>
+          <a data-nav-link href="projects.html">Projects</a>
+          <a data-nav-link href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page">
+      <section class="hero compact reveal">
+        <div>
+          <h1>AI Projects</h1>
+          <p>These are a few applied AI and data science projects where I take messy data, build models, evaluate them carefully, and package the results into product-style experiences. I focus on the full loop, defining what success looks like, choosing the right metrics, and designing the system so it is measurable when used. Funnily enough, I built this portfolio too :P. Turns out a lot of the &ldquo;free&rdquo; site builders are not actually free anymore :/</p>
+        </div>
+      </section>
+
+      <section class="stack project-list reveal">
+        <article class="card project-card">
+          <div>
+            <h3>Spendlark Money</h3>
+            <p>
+              Spendlark Money is a personal finance insights app that turns raw transaction statements
+              into a clean monthly story of where your money went. It ingests statements and organizes
+              transactions into understandable categories so you can see spending patterns without manual
+              tracking. It highlights month-over-month changes, flags unusual spikes, and surfaces
+              subscription waste that quietly adds up. It also gives forward-looking guidance so you can
+              plan smarter for the next month. The experience is powered by machine learning for
+              categorization and pattern detection, and an LLM layer that turns insights into simple,
+              guided coaching.
+            </p>
+            <div class="chip-row">
+              <span class="chip">Financial Analytics</span>
+              <span class="chip">Machine Learning</span>
+              <span class="chip">Spend Classification</span>
+              <span class="chip">Anomaly Detection</span>
+              <span class="chip">Forecasting</span>
+              <span class="chip">LLM application</span>
+            </div>
+            <div class="project-actions">
+              <a class="action-link" href="https://github.com/trshwetha7/Financial-Insights" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+          <div class="project-media project-media-spendlark" role="img" aria-label="Spendlark Money screenshot"></div>
+        </article>
+
+        <article class="card project-card">
+          <div>
+            <h3>PMS Mood Compass</h3>
+            <p>
+              PMS Mood Compass is a cycle and wellbeing tracker that goes beyond logging and helps you
+              understand patterns over time. You track symptoms and lifestyle signals in a simple daily
+              flow, and the app turns that history into clear insights you can actually act on. It helps
+              you spot which habits tend to correlate with better or worse days instead of leaving you
+              with a long list of entries. It also provides a short-term outlook based on your past
+              tracking, so you know what to expect and can plan ahead. The intelligence is backed by
+              machine learning that learns from your own logs and surfaces interpretable trends.
+            </p>
+            <div class="chip-row">
+              <span class="chip">Health Analytics</span>
+              <span class="chip">Machine Learning</span>
+              <span class="chip">Time Series Forecasting</span>
+              <span class="chip">FastAPI</span>
+              <span class="chip">Predictive Modeling</span>
+              <span class="chip">Product Insights</span>
+            </div>
+            <div class="project-actions">
+              <a class="action-link" href="https://github.com/trshwetha7/PMS-Mood-Tracker" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+          <div class="project-media project-media-pms" role="img" aria-label="PMS Mood Compass screenshot"></div>
+        </article>
+
+        <article class="card project-card">
+          <div>
+            <h3>StudyBuddyAI</h3>
+            <p>
+              StudyBuddyAI is an AI education platform that teaches machine learning and modern AI in a
+              way that builds real intuition, not just definitions. Lessons break concepts down step by
+              step so it feels structured, beginner-friendly, and still technically solid. It also
+              includes an interactive tutor so you can ask questions while learning and get answers that
+              stay aligned to the lesson you are on. This makes studying feel closer to having a personal
+              instructor than searching random explanations online. The tutor is LLM-backed and uses
+              retrieval grounding so responses stay consistent with the course content.
+            </p>
+            <div class="chip-row">
+              <span class="chip">Learning Platform</span>
+              <span class="chip">EdTech</span>
+              <span class="chip">LLM application</span>
+              <span class="chip">Retrieval Augmented Generation</span>
+              <span class="chip">LangChain</span>
+              <span class="chip">Personalization</span>
+            </div>
+            <div class="project-actions">
+              <a class="action-link" href="https://github.com/trshwetha7/Study-Buddy-AI" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+          <div class="project-media project-media-studybuddy" role="img" aria-label="StudyBuddyAI screenshot"></div>
+        </article>
+
+        <article class="card project-card">
+          <div>
+            <h3>SQL Sprint</h3>
+            <p>
+              SQL Sprint is a realistic SQL interview practice platform designed to mirror real screening
+              rounds. It uses business-style datasets across domains so the questions feel like what
+              companies actually ask. Your queries are evaluated using real query outputs, which keeps
+              scoring objective and repeatable. The platform also explains mistakes clearly so you learn
+              the patterns behind the problems, not just the final answer. It includes an LLM-based
+              helper to guide debugging and reasoning while keeping the evaluation grounded in SQL
+              correctness.
+            </p>
+            <div class="chip-row">
+              <span class="chip">SQL</span>
+              <span class="chip">LangChain</span>
+              <span class="chip">Data Evaluation</span>
+              <span class="chip">Full-Stack Web App</span>
+              <span class="chip">Evaluation Frameworks</span>
+            </div>
+            <div class="project-actions">
+              <a class="action-link" href="https://github.com/trshwetha7/SQL-Builder" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+          <div class="project-media project-media-sqlsprint" role="img" aria-label="SQL Sprint screenshot"></div>
+        </article>
+
+        <article class="card project-card">
+          <div>
+            <h3>GlowKind</h3>
+            <p>
+              GlowKind is an AI-assisted beauty product search and comparison app that makes clean
+              shopping feel simple instead of overwhelming. You can search a product and immediately see
+              ingredient and packaging signals explained in plain language. It highlights ingredient
+              watch-outs, summarizes safety and sustainability signals, and makes it easier to compare
+              products within the same category. It also recommends cleaner alternatives that are actually
+              relevant to what you are shopping for. The scoring is backed by machine learning so product
+              comparisons stay consistent rather than relying on vague marketing claims.
+            </p>
+            <div class="chip-row">
+              <span class="chip">Consumer Product</span>
+              <span class="chip">Sustainability</span>
+              <span class="chip">Machine Learning</span>
+              <span class="chip">Search</span>
+              <span class="chip">Recommendations</span>
+              <span class="chip">Ranking and Scoring</span>
+            </div>
+            <div class="project-actions">
+              <a class="action-link" href="https://github.com/trshwetha7/Product-Comparison" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+          <div class="project-media project-media-glowkind" role="img" aria-label="GlowKind screenshot"></div>
+        </article>
+      </section>
+    </main>
+
+    <script src="assets/main.js"></script>
+  </body>
+</html>
