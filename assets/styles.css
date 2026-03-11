@@ -546,12 +546,11 @@ a {
 }
 
 .project-media-spotify {
-  background-image:
-    url("project-images/Spotify.png"),
-    radial-gradient(circle at 82% 30%, rgba(17, 98, 255, 0.26), transparent 36%),
-    radial-gradient(circle at 20% 80%, rgba(13, 170, 120, 0.16), transparent 32%),
-    linear-gradient(135deg, #1d2533, #2a3d5d);
-  background-position: right center, center, center, center;
+  background-image: url("project-images/Spotify.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--surface);
 }
 
 .project-media-sqlsprint {
