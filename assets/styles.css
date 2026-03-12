@@ -553,6 +553,14 @@ a {
   background-color: var(--surface);
 }
 
+.project-media-retail {
+  background-image: url("project-images/Retail-Customer.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--surface);
+}
+
 .project-media-sqlsprint {
   background-image:
     url("project-images/SQLSprint.png"),
