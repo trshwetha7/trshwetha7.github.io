@@ -561,6 +561,14 @@ a {
   background-color: var(--surface);
 }
 
+.project-media-youtube {
+  background-image: url("project-images/Youtube.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--surface);
+}
+
 .project-media-sqlsprint {
   background-image:
     url("project-images/SQLSprint.png"),
